@@ -92,7 +92,7 @@ public class PI {
             switch (opcao) {
                 case 1:
                     System.out.println("Unn.. muito bem Abayomi, vamos ver do que você é capaz!");
-                    funcaoQueSorteiaFuncao2();
+                    segundaParteHistoria();
                     break;
                 case 2:
                     System.out.println(
@@ -147,7 +147,7 @@ public class PI {
                     break;
                 case 3:
                     System.out.println("Nada mal....vamos continuar");
-                    funcaoQueSorteiaFuncao2();
+                    segundaParteHistoria();
                     break;
                 case 4:
                     System.out.println(
@@ -197,7 +197,7 @@ public class PI {
                     break;
                 case 4:
                     System.out.println("Os Deus estão te ajudando nesse momento? Parece estar fácil para você....");
-                    funcaoQueSorteiaFuncao2();
+                    segundaParteHistoria();
                     break;
                 case 5:
                     System.out.println(
@@ -214,7 +214,10 @@ public class PI {
         }
 
     }
-
+    static void segundaParteHistoria() {
+        System.out.println("Abayomi avança pelo muro de hieróglifos e entra em um salão repleto de estátuas antigas e armadilhas mortais. Ele percebe que está cada vez mais próximo do tesouro e não pode desistir agora. A voz da Esfinge ecoa novamente, desafiando-o com mais perguntas:");
+        funcaoQueSorteiaFuncao2();
+    }
     static void segundoDesafioOpcao1() {
         do {
             System.out.println("Desafio-o a revelar o valor hexadecimal do número decimal 1023?");
@@ -232,7 +235,7 @@ public class PI {
                     break;
                 case 2:
                     System.out.println("Inteligente....mas será que é forte e poderoso? ");
-                    funcaoQueSorteiaFuncao3();
+                    terceiraParteHistoria();
                     break;
                 case 3:
                     System.out.println(
@@ -273,7 +276,7 @@ public class PI {
             switch (opcao) {
                 case 1:
                     System.out.println("Nada mal....vamos continua");
-                    funcaoQueSorteiaFuncao3();
+                    terceiraParteHistoria();
                     break;
                 case 2:
                     System.out.println(
@@ -338,7 +341,7 @@ public class PI {
                     break;
                 case 5:
                     System.out.println("Inteligente....mas será que é forte e poderoso?");
-                    funcaoQueSorteiaFuncao3();
+                    terceiraParteHistoria();
                     break;
                 default:
                     System.out.println("Opção inválida!");
@@ -351,6 +354,10 @@ public class PI {
 
     }
 
+    static void terceiraParteHistoria() {
+        System.out.println("Abayomi supera as armadilhas e chega à sala central da pirâmide. Lá, ele encontra um enigma final e a voz da Esfinge ressoa novamente:");
+        funcaoQueSorteiaFuncao3();
+    }
     static void terceiroDesafioOpcao1() {
         int[] respostas = { 1, 2, 3, 4, 5 };
         String[] mensagens = {
@@ -373,7 +380,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 3) {
-                        funcaoQueSorteiaFuncao4();
+                        quartaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -411,7 +418,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 2) {
-                        funcaoQueSorteiaFuncao4();
+                        quartaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -450,7 +457,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 5) {
-                        funcaoQueSorteiaFuncao4();
+                        quartaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -460,6 +467,11 @@ public class PI {
                 System.out.println("Opção inválida!");
             }
         } while (opcao != 2);
+    }
+
+    static void quartaParteDaHistoria() {
+        System.out.println( "Abayomi enfrenta o mais um desafio com bravura, demonstrando todo o conhecimento adquirido ao longo de sua jornada. A voz da Esfinge ecoa novamente:");
+        funcaoQueSorteiaFuncao4();
     }
 
     static void quartoDesafioOpcao1() {
@@ -484,7 +496,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 3) {
-                        escolhadaarma();
+                        quintaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -523,7 +535,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 3) {
-                        escolhadaarma();
+                        quintaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -561,7 +573,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 4) {
-                        escolhadaarma();
+                        quintaParteDaHistoria();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -575,6 +587,11 @@ public class PI {
             gameOver();
         }
 
+    }
+
+    static void quintaParteDaHistoria() {
+        System.out.println("Abayomi resolve o enigma o que parece o final com astúcia e coragem, abrindo caminho para a câmara do tesouro. Ele está exausto, mas determinado a alcançar o objetivo de sua jornada. No entanto, um último desafio aguarda Abayomi, conforme a voz da Esfinge ecoa novamente:");
+        escolhadaarma();
     }
 
     static int boasVindas() {

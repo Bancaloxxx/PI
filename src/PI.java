@@ -355,7 +355,7 @@ public class PI {
     }
 
     static void terceiraParteHistoria() {
-        System.out.println("Abayomi supera as armadilhas e chega à sala central da pirâmide. Lá, ele encontra um enigma final e a voz da Esfinge ressoa novamente:");
+        System.out.println("Abayomi supera as armadilhas e chega à sala central da pirâmide. Lá, ele encontra um enigma e a voz da Esfinge ressoa novamente:");
         funcaoQueSorteiaFuncao3();
     }
     static void terceiroDesafioOpcao1() {

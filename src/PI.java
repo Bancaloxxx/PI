@@ -496,7 +496,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 3) {
-                        quintaParteDaHistoria();
+                        escolhadaarma();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -535,7 +535,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 3) {
-                        quintaParteDaHistoria();
+                        escolhadaarma();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -573,7 +573,7 @@ public class PI {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 4) {
-                        quintaParteDaHistoria();
+                        escolhadaarma();
                     }
                 } else {
                     System.out.println(mensagens[0]);
@@ -587,11 +587,6 @@ public class PI {
             gameOver();
         }
 
-    }
-
-    static void quintaParteDaHistoria() {
-        System.out.println("Abayomi resolve o enigma o que parece o final com astúcia e coragem, abrindo caminho para a câmara do tesouro. Ele está exausto, mas determinado a alcançar o objetivo de sua jornada. No entanto, um último desafio aguarda Abayomi, conforme a voz da Esfinge ecoa novamente:");
-        escolhadaarma();
     }
 
     static int boasVindas() {

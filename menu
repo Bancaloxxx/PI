@@ -8,7 +8,7 @@ public class PI {
 
  static int boasVindas() {
         do {
-            System.out.println("1 - Instruções")
+            System.out.println("1 - Instruções");
             System.out.println("3 - Créditos");
             System.out.println("4 - Sair");
             System.out.print("Escolha uma opcao: ");
@@ -34,7 +34,7 @@ public class PI {
 
     static void instruções() {
         do {
-            System.out.println("Instruções");
+            System.out.println("Esse é um jogo interativo com fins didáticos, as perguntas contidas no mesmo foram com materiais passados em sala de aula.Você terá apenas uma chance de acertar seja sucinto e lembre-se não caia nos contos da Esfinge");
             System.out.println("1 - Jogar o jogo");
             System.out.println("2 - Voltar ao menu principal");
             System.out.print("Escolha uma opcao: ");
@@ -55,7 +55,7 @@ public class PI {
 
     static void creditos() {
         do {
-            System.out.println("Augusto Henrique Ramos Bitiano Giovanna Bancala Gabriela Aruda Samuel Silva");
+            System.out.println("Augusto Henrique Ramos Bitiano, Giovanna Bancala, Gabriela Aruda, Samuel Silva");
             System.out.println("1 - Voltar ao menu principal");
             System.out.println("2 - Sair");
             System.out.print("Escolha uma opcao: ");

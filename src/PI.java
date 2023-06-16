@@ -1,3 +1,12 @@
+/*
+    Nome no github:
+    Giovanna Bancala: Bancaloxxx,
+    Samuel Silva: SJS09
+    Gabreiela Arruda: gabmeloo
+    Augusto Bitiano: Bitiano
+
+*/
+
 package src;
 
 import java.util.Scanner;

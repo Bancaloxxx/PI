@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,7 +8,8 @@ public class PI {
     static Random random = new Random();
     static int opcao;
     static int chances = 1;
-        static void errou() {
+
+    static void errou() {
         chances--;
         if (chances == 0) {
             gameOver();
@@ -32,7 +35,8 @@ public class PI {
             }
         } while (opcao != 1 && opcao != 2);
     }
-static void funcaoQueSorteiaFuncao1() {
+
+    static void funcaoQueSorteiaFuncao1() {
         int numero = random.nextInt(3);
         if (numero == 0) {
             primeroDesafioOpcao1();
@@ -42,6 +46,7 @@ static void funcaoQueSorteiaFuncao1() {
             primeroDesafioOpcao3();
         }
     }
+
     static void funcaoQueSorteiaFuncao2() {
         int numero = random.nextInt(3);
         if (numero == 0) {
@@ -52,6 +57,7 @@ static void funcaoQueSorteiaFuncao1() {
             segundoDesafioOpcao3();
         }
     }
+
     static void funcaoQueSorteiaFuncao3() {
         int numero = random.nextInt(3);
         if (numero == 0) {
@@ -62,6 +68,7 @@ static void funcaoQueSorteiaFuncao1() {
             terceiroDesafioOpcao3();
         }
     }
+
     static void funcaoQueSorteiaFuncao4() {
         int numero = random.nextInt(3);
         if (numero == 0) {
@@ -73,7 +80,7 @@ static void funcaoQueSorteiaFuncao1() {
         }
     }
 
-static void primeroDesafioOpcao1() {
+    static void primeroDesafioOpcao1() {
         do {
             System.out.println("Qual é o valor binário do número hexadecimal 3D?");
             System.out.println("1 - 11101");
@@ -88,19 +95,23 @@ static void primeroDesafioOpcao1() {
                     funcaoQueSorteiaFuncao2();
                     break;
                 case 2:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 3:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 4:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 5:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 default:
@@ -125,11 +136,13 @@ static void primeroDesafioOpcao1() {
             opcao = input.nextInt();
             switch (opcao) {
                 case 1:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 2:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 3:
@@ -137,11 +150,13 @@ static void primeroDesafioOpcao1() {
                     funcaoQueSorteiaFuncao2();
                     break;
                 case 4:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 5:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 default:
@@ -166,15 +181,18 @@ static void primeroDesafioOpcao1() {
             opcao = input.nextInt();
             switch (opcao) {
                 case 1:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 2:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 3:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 4:
@@ -182,7 +200,8 @@ static void primeroDesafioOpcao1() {
                     funcaoQueSorteiaFuncao2();
                     break;
                 case 5:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 default:
@@ -207,7 +226,8 @@ static void primeroDesafioOpcao1() {
             opcao = input.nextInt();
             switch (opcao) {
                 case 1:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 2:
@@ -215,18 +235,21 @@ static void primeroDesafioOpcao1() {
                     funcaoQueSorteiaFuncao3();
                     break;
                 case 3:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 4:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 5:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
-                
+
                 default:
                     System.out.println("Opção inválida!");
                     break;
@@ -253,19 +276,23 @@ static void primeroDesafioOpcao1() {
                     funcaoQueSorteiaFuncao3();
                     break;
                 case 2:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 3:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 4:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 5:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 default:
@@ -290,19 +317,23 @@ static void primeroDesafioOpcao1() {
             opcao = input.nextInt();
             switch (opcao) {
                 case 1:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 2:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 3:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 4:
-                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    System.out.println(
+                            "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
                     errou();
                     break;
                 case 5:
@@ -404,7 +435,7 @@ static void primeroDesafioOpcao1() {
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
-                     
+
         };
         int opcao;
         do {
@@ -419,7 +450,8 @@ static void primeroDesafioOpcao1() {
                 if (opcao == respostas[opcao - 1]) {
                     System.out.println(mensagens[opcao - 1]);
                     if (opcao == 5) {
-                        funcaoQueSorteiaFuncao4();                    }
+                        funcaoQueSorteiaFuncao4();
+                    }
                 } else {
                     System.out.println(mensagens[0]);
                     errou();
@@ -429,7 +461,7 @@ static void primeroDesafioOpcao1() {
             }
         } while (opcao != 2);
     }
-    
+
     static void quartoDesafioOpcao1() {
         int[] respostas = { 1, 2, 3, 4, 5 };
         String[] mensagens = {
@@ -515,7 +547,7 @@ static void primeroDesafioOpcao1() {
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
                 "Inteligente....mas será que é forte e poderoso? ",
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
-    };
+        };
         int opcao;
         do {
             System.out.println("Qual a base resultante da conversão do número hexadecimal 8B4 para decimal? ");
@@ -545,9 +577,7 @@ static void primeroDesafioOpcao1() {
 
     }
 
-
-
- static int boasVindas() {
+    static int boasVindas() {
         do {
             System.out.println("1 - Instruções");
             System.out.println("2 - Jogar");
@@ -576,7 +606,8 @@ static void primeroDesafioOpcao1() {
 
     static void instruções() {
         do {
-            System.out.println("Esse é um jogo interativo com fins didáticos, as perguntas contidas no mesmo foram com materiais passados em sala de aula.Você terá apenas uma chance de acertar então seja sucinto e lembre-se não caia nos contos da Esfinge");
+            System.out.println(
+                    "Esse é um jogo interativo com fins didáticos, as perguntas contidas no mesmo foram com materiais passados em sala de aula.Você terá apenas uma chance de acertar então seja sucinto e lembre-se não caia nos contos da Esfinge");
             System.out.println("1 - Jogar o jogo");
             System.out.println("2 - Voltar ao menu principal");
             System.out.print("Escolha uma opcao: ");
@@ -645,12 +676,16 @@ static void primeroDesafioOpcao1() {
     static void comecoJogo() {
         chances = 1;
         System.out.println("Bem vindo a Tales of Sphinx");
-        System.out.println("Abayomi é um menino pobre que mora na Cidade Dos Mortos no Egito, enquanto trabalhava pescando peixes, Abayomi encontrou uma garrafa com um papel antigo dentro, ao abrir a garrafa, o menino descobriu que não era apenas um papel velho, mas sim, um mapa que poderia levá-lo até um tesouro, entretanto, junto com um mapa havia um pedaço de papel que dizia “Seja inteligente e corajoso, assim conseguirá obter tudo o que deseja. Não caia no conto da Esfinge”\n" +
-"Após refletir sobre a frase, Real não pensou duas vezes em ir em busca do tesouro. \n" +
-"E você está preparado para encarar o Conto da Esfinge?\n");
-        System.out.println("Após longos dias de caminhada, Abayomi se depara com a pirâmide. As portas da pirâmide se abrem e Abayomi entra com o desejo de conseguir o tão esperado tesouro. Abayomi se depara com um muro gigantesco com hieróglifos, quando de repente ele se assusta com uma voz que dizia: \"Espero que esteja preparado, Abayomi, eu, a Esfinge, guardiã dos enigmas, estou aqui para desafiar sua mente com perguntas sobre conversão de base, em nome dos deuses do Antigo Egito. Responda com cuidado: ")
+        System.out.println(
+                "Abayomi é um menino pobre que mora na Cidade Dos Mortos no Egito, enquanto trabalhava pescando peixes, Abayomi encontrou uma garrafa com um papel antigo dentro, ao abrir a garrafa, o menino descobriu que não era apenas um papel velho, mas sim, um mapa que poderia levá-lo até um tesouro, entretanto, junto com um mapa havia um pedaço de papel que dizia “Seja inteligente e corajoso, assim conseguirá obter tudo o que deseja. Não caia no conto da Esfinge”\n"
+                        +
+                        "Após refletir sobre a frase, Real não pensou duas vezes em ir em busca do tesouro. \n" +
+                        "E você está preparado para encarar o Conto da Esfinge?\n");
+        System.out.println(
+                "Após longos dias de caminhada, Abayomi se depara com a pirâmide. As portas da pirâmide se abrem e Abayomi entra com o desejo de conseguir o tão esperado tesouro. Abayomi se depara com um muro gigantesco com hieróglifos, quando de repente ele se assusta com uma voz que dizia: \"Espero que esteja preparado, Abayomi, eu, a Esfinge, guardiã dos enigmas, estou aqui para desafiar sua mente com perguntas sobre conversão de base, em nome dos deuses do Antigo Egito. Responda com cuidado: ");
         funcaoQueSorteiaFuncao1();
     }
+
     static int ataqueusuariokhopesh() {
         Scanner tc = new Scanner(System.in);
         System.out.println("Escolha seu ataque:");
@@ -681,7 +716,8 @@ static void primeroDesafioOpcao1() {
     }
 
     static void batalhakhopesh(int i) {
-        System.out.println("A pirâmide começa a tremer, o muro com hieróglifos começa a desmontar e uma múmia surge para atacar Abayomi.");
+        System.out.println(
+                "A pirâmide começa a tremer, o muro com hieróglifos começa a desmontar e uma múmia surge para atacar Abayomi.");
         int hpusuario = 100;
         int hpbot;
         int especial = 3;
@@ -725,7 +761,8 @@ static void primeroDesafioOpcao1() {
     }
 
     static void batalhacajado(int i) {
-        System.out.println("A pirâmide começa a tremer, o muro com hieróglifos começa a desmontar e uma múmia surge para atacar Abayomi.");
+        System.out.println(
+                "A pirâmide começa a tremer, o muro com hieróglifos começa a desmontar e uma múmia surge para atacar Abayomi.");
         int hpusuario = 100;
         int hpbot;
         int especial = 3;
@@ -770,7 +807,8 @@ static void primeroDesafioOpcao1() {
 
     static void escolhadaarma() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("A voz da Esfinge ressoa pelo corredor, enquanto o olhar penetrante da criatura se fixa em Abayomi. Com um tom solene, ela anuncia: \"Abayomi, antes de enfrentar o seu inimigo. Diante de você, estão duas opções cruciais. Um cajado ancestral, capaz de invocar poderes além da compreensão humana. E um khopesh, uma lâmina curva que representa força e coragem . Ambos possuem um poder intrínseco, mas somente um será seu verdadeiro aliado nesta batalha iminente. ");
+        System.out.println(
+                "A voz da Esfinge ressoa pelo corredor, enquanto o olhar penetrante da criatura se fixa em Abayomi. Com um tom solene, ela anuncia: \"Abayomi, antes de enfrentar o seu inimigo. Diante de você, estão duas opções cruciais. Um cajado ancestral, capaz de invocar poderes além da compreensão humana. E um khopesh, uma lâmina curva que representa força e coragem . Ambos possuem um poder intrínseco, mas somente um será seu verdadeiro aliado nesta batalha iminente. ");
         System.out.println("1 - Cajado");
         System.out.println("2 - Khopesh");
         int resposta = scanner.nextInt();
@@ -786,28 +824,32 @@ static void primeroDesafioOpcao1() {
         }
     }
 
-static void parteFinalDaHistoria() {
+    static void parteFinalDaHistoria() {
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("'Impressionante... inteligente e ágil, será que é sábio?' Me diga Abayomi... O que é que de manhã tem quatro patas, de tarde tem duas e de noite tem três?'");
+
+        System.out.println(
+                "'Impressionante... inteligente e ágil, será que é sábio?' Me diga Abayomi... O que é que de manhã tem quatro patas, de tarde tem duas e de noite tem três?'");
         System.out.println("1) A cama");
         System.out.println("2) O canguru");
         System.out.println("3) A mesa");
         System.out.println("4) O ser humano");
         System.out.println("5) O cachorro");
         String resposta = scanner.nextLine();
-        
+
         if (resposta.equalsIgnoreCase("4")) {
             System.out.println("Parabéns, Abayomi! Você foi digno de chegar até aqui.");
         } else {
             System.out.println("Resposta incorreta. Esteja preparado da próxima vez.");
-            System.out.println("Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+            System.out.println(
+                    "Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
             return;
         }
-        
+
         System.out.println("Um buraco se abre no meio da pirâmide e então surge um baú.");
-        System.out.println("Esse baú contém toda a fortuna que um sábio rapaz inteligente e corajoso é digno de receber, mas basta adivinhar o último enigma.");
-        System.out.println("O baú era antigo, porém com um cadeado com segredo de 3 dígitos, no topo do baú haviam a gravura de Amon (Deus patrono de Tebas), Osíris (Deus da morte, da fertilidade, da agricultura, etc.), Hórus (Deus dos céus), Anúbis (Deus da morte, da mumificação, da vida após a morte, das tumbas, etc.) e Ísis (principal deusa do panteão egípcio).");
+        System.out.println(
+                "Esse baú contém toda a fortuna que um sábio rapaz inteligente e corajoso é digno de receber, mas basta adivinhar o último enigma.");
+        System.out.println(
+                "O baú era antigo, porém com um cadeado com segredo de 3 dígitos, no topo do baú haviam a gravura de Amon (Deus patrono de Tebas), Osíris (Deus da morte, da fertilidade, da agricultura, etc.), Hórus (Deus dos céus), Anúbis (Deus da morte, da mumificação, da vida após a morte, das tumbas, etc.) e Ísis (principal deusa do panteão egípcio).");
         System.out.println("Qual é o segredo que abrirá o cadeado?");
         System.out.println("1) 101");
         System.out.println("2) 110");
@@ -815,16 +857,18 @@ static void parteFinalDaHistoria() {
         System.out.println("4) 100");
         System.out.println("5) 001");
         resposta = scanner.nextLine();
-        
+
         if (resposta.equalsIgnoreCase("1")) {
             System.out.println("Parabéns! Você desvendou o enigma final!");
-            System.out.println("O baú se abre e Abayomi encontra um tesouro inestimável. Abayomi conseguiu a riqueza que tanto almejava e sua coragem e sabedoria serão lembradas para sempre.\n");
+            System.out.println(
+                    "O baú se abre e Abayomi encontra um tesouro inestimável. Abayomi conseguiu a riqueza que tanto almejava e sua coragem e sabedoria serão lembradas para sempre.\n");
             System.out.println("Bem vindo a Tales of Sphinx");
             primeiraEtapa();
-            
+
         } else {
             System.out.println("Resposta incorreta. Esteja preparado da próxima vez.");
-            System.out.println("Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+            System.out.println(
+                    "Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
         }
     }
 
@@ -833,5 +877,3 @@ static void parteFinalDaHistoria() {
 
     }
 }
-
-

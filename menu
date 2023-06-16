@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ntãoimport java.util.Scanner;
 import java.util.Random;
 
 public class PI {
@@ -35,7 +35,7 @@ public class PI {
 
     static void instruções() {
         do {
-            System.out.println("Esse é um jogo interativo com fins didáticos, as perguntas contidas no mesmo foram com materiais passados em sala de aula.Você terá apenas uma chance de acertar seja sucinto e lembre-se não caia nos contos da Esfinge");
+            System.out.println("Esse é um jogo interativo com fins didáticos, as perguntas contidas no mesmo foram com materiais passados em sala de aula.Você terá apenas uma chance de acertar então seja sucinto e lembre-se não caia nos contos da Esfinge");
             System.out.println("1 - Jogar o jogo");
             System.out.println("2 - Voltar ao menu principal");
             System.out.print("Escolha uma opcao: ");

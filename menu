@@ -32,10 +32,524 @@ public class PI {
             }
         } while (opcao != 1 && opcao != 2);
     }
+static void funcaoQueSorteiaFuncao1() {
+        int numero = random.nextInt(3);
+        if (numero == 0) {
+            primeroDesafioOpcao1();
+        } else if (numero == 1) {
+            primeroDesafioOpcao2();
+        } else {
+            primeroDesafioOpcao3();
+        }
+    }
+    static void funcaoQueSorteiaFuncao2() {
+        int numero = random.nextInt(3);
+        if (numero == 0) {
+            segundoDesafioOpcao1();
+        } else if (numero == 1) {
+            segundoDesafioOpcao2();
+        } else {
+            segundoDesafioOpcao3();
+        }
+    }
+    static void funcaoQueSorteiaFuncao3() {
+        int numero = random.nextInt(3);
+        if (numero == 0) {
+            terceiroDesafioOpcao1();
+        } else if (numero == 1) {
+            terceiroDesafioOpcao2();
+        } else {
+            terceiroDesafioOpcao3();
+        }
+    }
+    static void funcaoQueSorteiaFuncao4() {
+        int numero = random.nextInt(3);
+        if (numero == 0) {
+            quartoDesafioOpcao1();
+        } else if (numero == 1) {
+            quartoDesafioOpcao2();
+        } else {
+            quartoDesafioOpcao3();
+        }
+    }
+
+static void primeroDesafioOpcao1() {
+        do {
+            System.out.println("Qual é o valor binário do número hexadecimal 3D?");
+            System.out.println("1 - 11101");
+            System.out.println("2 - 10011");
+            System.out.println("3 - 110101");
+            System.out.println("4 - 101101");
+            System.out.println("5 - 11011");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Unn.. muito bem Abayomi, vamos ver do que você é capaz!");
+                    funcaoQueSorteiaFuncao2();
+                    break;
+                case 2:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 3:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 4:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 5:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void primeroDesafioOpcao2() {
+        do {
+            System.out.println("Revelai o valor decimal do número hexadecimal FF?");
+            System.out.println("1 - 250");
+            System.out.println("2 - 253");
+            System.out.println("3 - 255");
+            System.out.println("4 - 257");
+            System.out.println("5 - 2592");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 2:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 3:
+                    System.out.println("Nada mal....vamos continuar");
+                    funcaoQueSorteiaFuncao2();
+                    break;
+                case 4:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 5:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void primeroDesafioOpcao3() {
+        do {
+            System.out.println("Qual é o valor decimal do número hexadecimal A3?");
+            System.out.println("1 - 103 ");
+            System.out.println("2 - 113");
+            System.out.println("3 - 153");
+            System.out.println("4 - 163");
+            System.out.println("5 - 173");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 2:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 3:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 4:
+                    System.out.println("Os Deus estão te ajudando nesse momento? Parece estar fácil para você....");
+                    funcaoQueSorteiaFuncao2();
+                    break;
+                case 5:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (opcao != 3);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void segundoDesafioOpcao1() {
+        do {
+            System.out.println("Desafio-o a revelar o valor hexadecimal do número decimal 1023");
+            System.out.println("1 - 2FF");
+            System.out.println("2 - 3FF");
+            System.out.println("3 - 4FF");
+            System.out.println("4 - 7FF");
+            System.out.println("5 - 8FF");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 2:
+                    System.out.println("Inteligente....mas será que é forte e poderoso? ");
+                    funcaoQueSorteiaFuncao3();
+                    break;
+                case 3:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 4:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 5:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void segundoDesafioOpcao2() {
+        do {
+            System.out.println("Qual a base resultante da conversão do número hexadecimal 3E7 para decimal?");
+            System.out.println("1 - 967 ");
+            System.out.println("2 - 997");
+            System.out.println("3 - 1003");
+            System.out.println("4 - 9999");
+            System.out.println("5 - 10007");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Nada mal....vamos continua");
+                    funcaoQueSorteiaFuncao3();
+                    break;
+                case 2:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 3:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 4:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 5:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void segundoDesafioOpcao3() {
+        do {
+            System.out.println("Qual é o número hexadecimal correspondente ao valor decimal 256? ");
+            System.out.println("1 - 100");
+            System.out.println("2 - 10A");
+            System.out.println("3 - 110");
+            System.out.println("4 - 11A");
+            System.out.println("5 - 120");
+            opcao = input.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 2:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 3:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 4:
+                    System.out.println("Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+                    errou();
+                    break;
+                case 5:
+                    System.out.println("Inteligente....mas será que é forte e poderoso?");
+                    funcaoQueSorteiaFuncao3();
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    break;
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void terceiroDesafioOpcao1() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Os Deus estão te ajudando nesse momento? Parece estar fácil para você...",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+        };
+        int opcao;
+        do {
+            System.out.println("Qual a base resultante da conversão do número hexadecimal EFA para decimal?");
+            System.out.println("1 - 2730");
+            System.out.println("2 - 3250");
+            System.out.println("3 - 3330");
+            System.out.println("4 - 3750");
+            System.out.println("5 - 3890");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 3) {
+                        funcaoQueSorteiaFuncao4();
+                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void terceiroDesafioOpcao2() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Os Deus estão te ajudando nesse momento? Parece estar fácil para você...",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+        };
+        int opcao;
+        do {
+            System.out.println("Qual é o número hexadecimal correspondente ao valor decimal 1023?");
+            System.out.println("1 - 3E7");
+            System.out.println("2 - 3FF");
+            System.out.println("3 - 40F");
+            System.out.println("4 - 417");
+            System.out.println("5 - 423");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 2) {
+                        funcaoQueSorteiaFuncao4();
+                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void terceiroDesafioOpcao3() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Os Deus estão te ajudando nesse momento? Parece estar fácil para você...."        
+        };
+        int opcao;
+        do {
+            System.out.println("Qual o valor decimal equivalente ao número hexadecimal 7C8?");
+            System.out.println("1 - 1784");
+            System.out.println("2 - 1824");
+            System.out.println("3 - 1863");
+            System.out.println("4 - 1890");
+            System.out.println("5 - 1928");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 5) {
+                        funcaoQueSorteiaFuncao4();                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (opcao != 2);
+    }
+    
+    static void quartoDesafioOpcao1() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Unn.. muito bem Abayomi, vamos vê do que você é capaz!",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+        };
+        int opcao;
+        do {
+            System.out.println("Qual a base resultante da conversão do número hexadecimal 13D para decimal? ");
+            System.out.println("1 - 269");
+            System.out.println("2 - 309");
+            System.out.println("3 - 333");
+            System.out.println("4 - 349");
+            System.out.println("5 - 365");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 3) {
+                        escolhadaarma();
+                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void quartoDesafioOpcao2() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Unn.. muito bem Abayomi, vamos vê do que você é capaz!",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+        };
+        int opcao;
+        do {
+            System.out.println("Qual é o número hexadecimal correspondente ao valor decimal 512? ");
+            System.out.println("1 - 200");
+            System.out.println("2 - 280");
+            System.out.println("3 - 2A0");
+            System.out.println("4 - 2C0");
+            System.out.println("5 - 2D0");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 3) {
+                        escolhadaarma();
+                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+    static void quartoDesafioOpcao3() {
+        int[] respostas = { 1, 2, 3, 4, 5 };
+        String[] mensagens = {
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Inteligente....mas será que é forte e poderoso? ",
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+    };
+        int opcao;
+        do {
+            System.out.println("Qual a base resultante da conversão do número hexadecimal 8B4 para decimal? ");
+            System.out.println("1 - 2088");
+            System.out.println("2 - 2164");
+            System.out.println("3 - 2268");
+            System.out.println("4 - 2308");
+            System.out.println("5 - 2436");
+            opcao = input.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                if (opcao == respostas[opcao - 1]) {
+                    System.out.println(mensagens[opcao - 1]);
+                    if (opcao == 4) {
+                        escolhadaarma();
+                    }
+                } else {
+                    System.out.println(mensagens[0]);
+                    errou();
+                }
+            } else {
+                System.out.println("Opção inválida!");
+            }
+        } while (chances != 0);
+        if (chances == 0) {
+            gameOver();
+        }
+
+    }
+
+
 
  static int boasVindas() {
         do {
             System.out.println("1 - Instruções");
+            System.out.println("2 - Jogar");
             System.out.println("3 - Créditos");
             System.out.println("4 - Sair");
             System.out.print("Escolha uma opcao: ");
@@ -271,6 +785,52 @@ public class PI {
         }
     }
 
+static void parteFinalDaHistoria() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("'Impressionante... inteligente e ágil, será que é sábio?' Me diga Abayomi... O que é que de manhã tem quatro patas, de tarde tem duas e de noite tem três?'");
+        System.out.println("1) A cama");
+        System.out.println("2) O canguru");
+        System.out.println("3) A mesa");
+        System.out.println("4) O ser humano");
+        System.out.println("5) O cachorro");
+        String resposta = scanner.nextLine();
+        
+        if (resposta.equalsIgnoreCase("4")) {
+            System.out.println("Parabéns, Abayomi! Você foi digno de chegar até aqui.");
+        } else {
+            System.out.println("Resposta incorreta. Esteja preparado da próxima vez.");
+            System.out.println("Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+            return;
+        }
+        
+        System.out.println("Um buraco se abre no meio da pirâmide e então surge um baú.");
+        System.out.println("Esse baú contém toda a fortuna que um sábio rapaz inteligente e corajoso é digno de receber, mas basta adivinhar o último enigma.");
+        System.out.println("O baú era antigo, porém com um cadeado com segredo de 3 dígitos, no topo do baú haviam a gravura de Amon (Deus patrono de Tebas), Osíris (Deus da morte, da fertilidade, da agricultura, etc.), Hórus (Deus dos céus), Anúbis (Deus da morte, da mumificação, da vida após a morte, das tumbas, etc.) e Ísis (principal deusa do panteão egípcio).");
+        System.out.println("Qual é o segredo que abrirá o cadeado?");
+        System.out.println("1) 101");
+        System.out.println("2) 110");
+        System.out.println("3) 111");
+        System.out.println("4) 100");
+        System.out.println("5) 001");
+        resposta = scanner.nextLine();
+        
+        if (resposta.equalsIgnoreCase("1")) {
+            System.out.println("Parabéns! Você desvendou o enigma final!");
+            System.out.println("O baú se abre e Abayomi encontra um tesouro inestimável. Abayomi conseguiu a riqueza que tanto almejava e sua coragem e sabedoria serão lembradas para sempre.\n");
+            System.out.println("Bem vindo a Tales of Sphinx");
+            primeiraEtapa();
+            
+        } else {
+            System.out.println("Resposta incorreta. Esteja preparado da próxima vez.");
+            System.out.println("Um tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.");
+        }
+    }
 
+    public static void main(String[] args) {
+        primeiraEtapa();
+
+    }
+}
 
 

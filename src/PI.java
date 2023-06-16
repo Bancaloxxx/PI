@@ -691,13 +691,17 @@ public class PI {
         System.out.println(
                 "Abayomi é um menino pobre que mora na Cidade Dos Mortos no Egito, enquanto trabalhava pescando peixes, Abayomi encontrou uma garrafa com um papel antigo dentro, ao abrir a garrafa, o menino descobriu que não era apenas um papel velho, mas sim, um mapa que poderia levá-lo até um tesouro, entretanto, junto com um mapa havia um pedaço de papel que dizia “Seja inteligente e corajoso, assim conseguirá obter tudo o que deseja. Não caia no conto da Esfinge”\n"
                         +
-                        "Após refletir sobre a frase, Real não pensou duas vezes em ir em busca do tesouro. \n" +
+                        "Após refletir sobre a frase, Abayomi não pensou duas vezes em ir em busca do tesouro. \n" +
                         "E você está preparado para encarar o Conto da Esfinge?\n");
         System.out.println(
                 "Após longos dias de caminhada, Abayomi se depara com a pirâmide. As portas da pirâmide se abrem e Abayomi entra com o desejo de conseguir o tão esperado tesouro. Abayomi se depara com um muro gigantesco com hieróglifos, quando de repente ele se assusta com uma voz que dizia: \"Espero que esteja preparado, Abayomi, eu, a Esfinge, guardiã dos enigmas, estou aqui para desafiar sua mente com perguntas sobre conversão de base, em nome dos deuses do Antigo Egito. Responda com cuidado: ");
         funcaoQueSorteiaFuncao1();
     }
-
+    
+    //Sistema de combate feito com if else, switch case e random
+    //O usuario escolhe a arma dele e baseado nisso usa uma função e combate especifico pra cada arma
+    //O inimigo usa random pra sortear entre ataque fortte e fraco
+    
     static int ataqueusuariokhopesh() {
         Scanner tc = new Scanner(System.in);
         System.out.println("Escolha seu ataque:");

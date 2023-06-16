@@ -198,7 +198,7 @@ static void primeroDesafioOpcao1() {
 
     static void segundoDesafioOpcao1() {
         do {
-            System.out.println("Desafio-o a revelar o valor hexadecimal do número decimal 1023");
+            System.out.println("Desafio-o a revelar o valor hexadecimal do número decimal 1023?");
             System.out.println("1 - 2FF");
             System.out.println("2 - 3FF");
             System.out.println("3 - 4FF");
@@ -400,10 +400,11 @@ static void primeroDesafioOpcao1() {
         int[] respostas = { 1, 2, 3, 4, 5 };
         String[] mensagens = {
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
+                "Os Deus estão te ajudando nesse momento? Parece estar fácil para você....",
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
                 "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
-                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia.",
-                "Os Deus estão te ajudando nesse momento? Parece estar fácil para você...."        
+                "Resposta incorreta. Esteja preparado da próxima vez./nUm tornado começa a se formar e joga Abayomi para fora da pirâmide, as portas se fecham e a pirâmide se desmonta em uma pilha de areia."
+                     
         };
         int opcao;
         do {
@@ -597,7 +598,7 @@ static void primeroDesafioOpcao1() {
 
     static void creditos() {
         do {
-            System.out.println("Augusto Henrique Ramos Bitiano, Giovanna Bancala, Gabriela Aruda, Samuel Silva");
+            System.out.println("Augusto Henrique Ramos Bitiano, Giovanna Bancala, Gabriela Arruda, Samuel Silva");
             System.out.println("1 - Voltar ao menu principal");
             System.out.println("2 - Sair");
             System.out.print("Escolha uma opcao: ");

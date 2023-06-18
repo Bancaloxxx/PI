@@ -12,7 +12,7 @@ package src;
 import java.util.Scanner;
 import java.util.Random;
 
-public class PI {
+public class Grupo5TurmaA {
     static Scanner input = new Scanner(System.in);
     static Random random = new Random();
     static int opcao;
